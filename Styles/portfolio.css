@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* to make the font open sans alike */
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight:900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+nav{
+    margin: 0px auto;
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    /* to get max distance frm the two div */
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    /* it is given to make the other div inside the parent class to be in center */
+    align-items: center;       
+}
+nav .menu a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+nav .menu .btn{
+    /* width: 150px;
+    height: 65px; */
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}

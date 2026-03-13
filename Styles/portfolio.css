@@ -11,6 +11,10 @@
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    /* when applying background property we have to put url("") inside ""we have to put the url */
+    background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
 }
 .logo h2{
     font-size: 45px;
@@ -40,14 +44,70 @@ nav .menu a{
     color: #474747;
     font-size: 20px;
 }
-nav .menu .btn{
-    /* width: 150px;
-    height: 65px; */
-    padding: 18px 35px;
+.btn{
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
     font-size: 20px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+}
+nav .menu .btn{
+    /* width: 150px;
+    height: 65px; */
+    padding: 18px 35px;
+    
+}
+.banner{
+    display: flex;
+    padding: 46px 37px 0px 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .text-container{
+    max-width: 585px;
+}
+.banner .text-container h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner .text-container h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818 ;
+}
+.banner .text-container p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+    line-height: 30px;
+    /* font-weight: bold; */
+}
+.text-container .button-container{
+    display: flex;
+    gap: 30px;
+}
+.text-container .button-container .btn{
+    height: 64px;
+    width: 200px;
+}
+.text-container .button-container #contact{
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FFF8F3;
+}
+.image-container img{
+    width:584px;
+    height: 676px;
+    /* it is given to remove the slight gap between the image  */
+    vertical-align: bottom;
 }

@@ -80,12 +80,11 @@ nav .menu .btn{
     margin-bottom: 20px;
     color: #181818 ;
 }
-.banner .text-container p{
+p{
     font-size: 18px;
     margin-bottom: 30px;
     color: #757575;
     line-height: 30px;
-    /* font-weight: bold; */
 }
 .text-container .button-container{
     display: flex;
@@ -110,4 +109,36 @@ nav .menu .btn{
     height: 676px;
     /* it is given to remove the slight gap between the image  */
     vertical-align: bottom;
+}
+.about{
+    border-radius: 10px;
+    margin: 118px auto 0px auto;
+    width: 71%;
+    max-width: 1140px;
+    max-height: 550px;
+    background-color: #FFF8F3;
+}
+.about .about-container{
+    padding: 131px 156px;
+    text-align: center;
+}
+.about .about-container h3{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about .about-container .info{
+    display: flex;
+    padding: 0px 22.5px;
+    justify-content: space-between;
+}
+.about .about-container .info p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.about .about-container .info h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
 }

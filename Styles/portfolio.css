@@ -234,3 +234,55 @@ p{
     width: 200px;
     margin: 50px 700px 113px 700px ;
 }
+#form{
+    background-color: #FFF8F3;
+}
+#form .form-container{
+    width: 71%;
+    max-width: 1140px;
+    padding-top: 130px;
+    margin: 0 auto;
+    gap: 117px;
+    display: flex;
+}
+.form-container .connect{
+    max-width: 562px;
+}
+#form .connect .heading{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container .connect p{
+   font-size: 16px;
+   line-height: 28px;
+   margin-bottom: 30px;
+}
+.form-container .connect img{
+    max-width: 24px;
+    margin-right: 24px;
+}
+.form-container .message{
+    max-width: 461px;
+}
+.form-container .message form{
+    padding-top: 28px;
+}
+#form .message input[type="text"] , #form .message textarea {
+    display: block;
+    width: 461px;
+    padding: 30px 18px;
+    background-color: white;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+#form .message .btn{
+    height: 64px;
+    width: 150px;
+    margin-bottom:130px ;
+}

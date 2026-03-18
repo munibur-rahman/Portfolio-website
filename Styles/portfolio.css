@@ -13,7 +13,7 @@ header{
     padding-top: 50px;
     /* when applying background property we have to put url("") inside ""we have to put the url */
     background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left , bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
 }
 .logo h2{
